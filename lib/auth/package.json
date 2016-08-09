@@ -1,0 +1,25 @@
+{
+    "name": "webark-auth",
+    "version": "0.0.1",
+    "description": "Application Auth with node-passport",
+    "main": "auth.js",
+    "author": "Rafael Freitas Lima",
+    "license": "GPL-3.0",
+    "scripts": {
+        "preinstall": "ln -s ../../node_modules node_modules"
+    },
+    "plugin": {
+        "requires": [
+            "lib/webserver",
+            "lib/db"
+        ]
+    },
+    "dependencies": {
+        "cookie-parser": "^1.4.3",
+        "express-jwt": "^3.4.0",
+        "jsonwebtoken": "^7.0.1",
+        "passport": "^0.3.2",
+        "passport-facebook": "^2.1.1",
+        "passport-local": "^1.0.0"
+    }
+}

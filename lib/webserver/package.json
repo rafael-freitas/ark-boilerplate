@@ -1,0 +1,22 @@
+{
+    "name": "webark-webserver",
+    "version": "0.0.1",
+    "description": "Webserver with Express",
+    "main": "webserver.js",
+    "author": "Rafael Freitas Lima",
+    "license": "GPL-3.0",
+
+    "scripts": {
+        "preinstall": "ln -s ../../node_modules node_modules"
+    },
+    "dependencies": {
+        "express": "^4.14.0"
+    },
+    "plugin": {
+        "requires": [
+            "config",
+            "lib/logger",
+            "lib/util"
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "webark-auth-socket",
+  "version": "0.0.1",
+  "description": "Application Socket.io Authenticator",
+  "main": "auth.js",
+  "author": "Rafael Freitas Lima",
+  "license": "GPL-3.0",
+  "scripts": {
+    "preinstall": "ln -s ../../node_modules node_modules"
+  },
+  "plugin": {
+    "requires": [
+      "lib/socketserver",
+      "lib/auth"
+    ]
+  },
+  "dependencies": {
+
+  }
+}

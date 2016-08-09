@@ -1,0 +1,19 @@
+{
+  "name": "webark-util",
+  "version": "0.0.1",
+  "description": "Development Utils Objects",
+  "main": "util.js",
+  "author": "Rafael Freitas Lima",
+  "license": "GPL-3.0",
+  "scripts": {
+    "preinstall": "ln -s ../../node_modules node_modules"
+  },
+  "plugin": {
+    "requires": [
+
+    ]
+  },
+  "dependencies": {
+
+  }
+}

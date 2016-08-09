@@ -1,0 +1,25 @@
+{
+  "name": "webark-socketserver",
+  "version": "0.0.1",
+  "description": "Webserver with Express",
+  "main": "socketserver.js",
+  "author": "Rafael Freitas Lima",
+  "license": "GPL-3.0",
+  "scripts": {
+    "preinstall": "ln -s ../../node_modules node_modules"
+  },
+  "dependencies": {
+    "express-socket.io-session": "^1.3.1",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1",
+    "passport-local": "^1.0.0",
+    "socket.io": "^1.4.8",
+    "socket.io-bundle": "^0.1.2",
+    "socket.io-passport": "^0.1.1"
+  },
+  "plugin": {
+    "requires": [
+      "lib/webserver"
+    ]
+  }
+}

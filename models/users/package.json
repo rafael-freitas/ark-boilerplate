@@ -1,0 +1,13 @@
+{
+  "name": "webark-models-users",
+  "version": "0.0.1",
+  "description": "Application Models",
+  "main": "users.js",
+  "author": "Rafael Freitas Lima",
+  "license": "GPL-3.0",
+  "scripts": {
+  },
+  "plugin": {
+    "requires": ["lib/db"]
+  }
+}

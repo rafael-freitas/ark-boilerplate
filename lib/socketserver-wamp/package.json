@@ -1,0 +1,21 @@
+{
+  "name": "webark-socket-wamp",
+  "version": "0.0.1",
+  "description": "Application Wamp Provider for Socket Server",
+  "main": "wamp.js",
+  "author": "Rafael Freitas Lima",
+  "license": "GPL-3.0",
+  "scripts": {
+    "preinstall": "ln -s ../../node_modules node_modules"
+  },
+  "plugin": {
+    "requires": [
+      "lib/socketserver"
+    ]
+  },
+  "dependencies": {
+    "lodash": "^4.13.1",
+    "q": "^1.4.1",
+    "socket.io-wamp": "~0.0.2"
+  }
+}

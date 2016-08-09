@@ -1,0 +1,30 @@
+{
+  "name": "webark",
+  "version": "0.0.1",
+  "description": "A Boilerplate for web applications ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "boilerplate",
+    "skeleton",
+    "scaffolding",
+    "plugins"
+  ],
+  "author": "Rafael Freitas Lima",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "cluster": "^0.7.7",
+    "composable-middleware": "^0.3.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "express-jwt": "^3.4.0",
+    "express-session": "^1.14.0",
+    "jsonwebtoken": "^7.0.1",
+    "node-ark": "~0.0.1",
+    "socket.io-client": "^1.4.8"
+  }
+}

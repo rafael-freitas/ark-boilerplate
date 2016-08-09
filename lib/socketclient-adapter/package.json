@@ -1,0 +1,21 @@
+{
+  "name": "webark-socket-adapter",
+  "version": "0.0.1",
+  "description": "Application Socket.io Client Adapter",
+  "main": "adapter.js",
+  "author": "Rafael Freitas Lima",
+  "license": "GPL-3.0",
+  "scripts": {
+    "preinstall": "ln -s ../../node_modules node_modules"
+  },
+  "plugin": {
+    "requires": [
+      "config",
+      "lib/socketserver"
+    ]
+  },
+  "dependencies": {
+    "socket.io-wamp": "~0.0.2",
+    "socket.io-client": "~1.4.8"
+  }
+}

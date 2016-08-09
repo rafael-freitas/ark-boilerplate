@@ -1,0 +1,22 @@
+{
+  "name": "webark-main",
+  "version": "0.0.1",
+  "description": "Application Entrance Door",
+  "main": "main.js",
+
+  "author": "Rafael Freitas Lima",
+  "license": "GPL-3.0",
+
+  "scripts": {
+      "preinstall" : "ln -s ../../node_modules node_modules"
+  },
+
+  "plugin": {
+      "requires": [
+          "lib/logger",
+          "lib/webserver",
+          "lib/socketserver",
+          "lib/db"
+      ]
+  }
+}

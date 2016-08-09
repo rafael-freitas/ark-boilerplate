@@ -1,0 +1,26 @@
+{
+  "name": "webark-config-express",
+  "version": "0.0.1",
+  "description": "Config for Express JS, required for webserver package",
+  "main": "express.js",
+  "author": "Rafael Freitas Lima",
+  "license": "GPL-3.0",
+  "scripts": {
+    "preinstall": "ln -s ../../node_modules node_modules"
+  },
+  "plugin": {
+    "requires": [
+      "./config"
+    ]
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "compression": "^1.6.2",
+    "connect-flash": "^0.1.1",
+    "connect-modrewrite": "^0.9.0",
+    "connect-mongo": "^1.2.1",
+    "consolidate": "^0.14.1",
+    "express": "^4.14.0",
+    "view-helpers": "^0.1.5"
+  }
+}

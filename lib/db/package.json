@@ -1,0 +1,21 @@
+{
+  "name": "webark-db",
+  "version": "0.0.1",
+  "description": "Application Database setup",
+  "main": "db.js",
+  "author": "Rafael Freitas Lima",
+  "license": "GPL-3.0",
+  "scripts": {
+    "preinstall": "ln -s ../../node_modules node_modules"
+  },
+  "plugin": {
+    "requires": [
+      "config",
+      "lib/logger",
+      "lib/util"
+    ]
+  },
+  "dependencies": {
+    "mongoose": "^4.5.3"
+  }
+}

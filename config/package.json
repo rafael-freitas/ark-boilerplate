@@ -1,0 +1,18 @@
+{
+  "name": "webark-config",
+  "version": "0.0.1",
+  "description": "Application Config Plugin",
+  "main": "config.js",
+  "author": "Rafael Freitas Lima",
+  "license": "GPL-3.0",
+  "scripts": {
+    "preinstall": "ln -s ../node_modules node_modules"
+  },
+  "plugin": {
+    "requires": []
+  },
+  "dependencies": {
+    "merge": "^1.2.0",
+    "swig": "^1.4.2"
+  }
+}
