@@ -1,5 +1,5 @@
 {
-  "name": "webark",
+  "name": "ark-boilerplate",
   "version": "0.0.1",
   "description": "A Boilerplate for web applications ",
   "main": "server.js",

@@ -1,0 +1,16 @@
+{
+  "name": "webark-auth-facebook",
+  "version": "0.0.1",
+  "description": "Application Auth with node-passport",
+  "main": "index.js",
+  "author": "Rafael Freitas Lima",
+  "license": "GPL-3.0",
+  "scripts": {
+    "preinstall": "ln -s ../../../node_modules node_modules"
+  },
+  "plugin": {
+    "requires": [
+      "lib/auth"
+    ]
+  }
+}

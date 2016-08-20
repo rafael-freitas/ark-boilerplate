@@ -12,6 +12,9 @@ module.exports = function setup (imports, done) {
 
 // create a schema
 var userSchema = new Schema({
+  name: {
+    type: String
+  },
   username: {
     type: String,
     required: true,
@@ -32,7 +35,8 @@ var userSchema = new Schema({
     type: String,
     default: 'user'
   },
-  facebook: {}
+  facebook: {},
+  google: {}
 })
 
 userSchema
