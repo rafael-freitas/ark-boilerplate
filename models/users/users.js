@@ -15,6 +15,9 @@ var userSchema = new Schema({
   name: {
     type: String
   },
+  avatar: {
+    type: String
+  },
   username: {
     type: String,
     required: true,
@@ -34,6 +37,10 @@ var userSchema = new Schema({
   role: {
     type: String,
     default: 'user'
+  },
+  rules: {
+    type: Array,
+    default: ['home']
   },
   facebook: {},
   google: {}
@@ -58,8 +65,13 @@ userSchema.methods.validPassword = function (password) {
 
 userSchema.methods.profile = function () {
   return {
+    id: this._id,
     username: this.username,
-    password: this.password
+    name: this.name,
+    email: this.email,
+    avatar: this.avatar,
+    role: this.role,
+    rules: this.rules
   }
 }
 
