@@ -1,6 +1,6 @@
 {
   "name": "ark-boilerplate",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A Boilerplate for web applications ",
   "main": "server.js",
   "scripts": {
